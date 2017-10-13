@@ -70,7 +70,7 @@ const requestHandler = (request, response) => {
 	function respond(state, msg, end = true) {
 		response.statusCode = data.meta.status
 
-		let output = `version:${version}\n${msg}\n`
+		let output = `version: ${version}\n${msg}\n`
 
 		if (typeof url.query.q == 'undefined') {
 			data.meta.msg = msg

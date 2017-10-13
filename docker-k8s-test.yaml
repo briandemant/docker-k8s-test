@@ -20,8 +20,8 @@ spec:
         run: docker-k8s-test
     spec:
       containers:
-      - image: docker-k8s-test
-        imagePullPolicy: IfNotPresent
+      - image: briandemant/docker-k8s-test:v1.0
+        imagePullPolicy: Always
         name: docker-k8s-test
       restartPolicy: Always
 ---
