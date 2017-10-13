@@ -1,8 +1,8 @@
-# Docker Kubernetes Testing
-
-A docker image for exploring k8s features
+# Shared files
  
-> A nodejs server which can be used to demonstrate various states and failures.
+## Demo server
+
+A nodejs server which can be used to demonstrate various states and failures.
 
 ### http endpoints
 
